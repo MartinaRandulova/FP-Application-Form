@@ -1,4 +1,4 @@
-# My solution to Frontend Developer Intern Challenge in Femme Fatal
+# My solution to Frontend Developer Intern Challenge in Femme Palette
 
 ## Task requirements
 
@@ -19,4 +19,4 @@
 - I have chosen ReactJS framework with Bootstrap CSS framework so that the code is well readable and maintainable
 - Implementing form validations and error handling was done based on native HTML form validation pseudo-selectors, displaying feedback is managed by ReactJS State Hook
 
-## Solution can be viewed on github pages -
+## Solution can be viewed on github pages - https://martinarandulova.github.io/FP-Application-Form/
