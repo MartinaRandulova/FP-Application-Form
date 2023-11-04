@@ -60,16 +60,24 @@ function FormFP() {
 
   return (
     <>
+      <style type="text/css">
+        {`
+        .btn-submit {
+          background-color: #0d0958;
+          color: #e8e8ec;
+        }`}
+      </style>
+
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
         <Form.Group className="mb-3">
           <Row>
             <Form.Group as={Col}>
               <Form.Label>First Name</Form.Label>
-              <Form.Control type="text" maxLength="256" id="First-Name" onChange={storeValue} />
+              <Form.Control className="px-4 py-3" type="text" maxLength="256" id="First-Name" onChange={storeValue} />
             </Form.Group>
             <Form.Group as={Col}>
               <Form.Label>*Last Name</Form.Label>
-              <Form.Control type="text" maxLength="256" id="Last-Name" required onChange={storeValue} />
+              <Form.Control className="px-4 py-3" type="text" maxLength="256" id="Last-Name" required onChange={storeValue} />
               <Form.Control.Feedback type="invalid">
                 Please provide your last name.
               </Form.Control.Feedback>
@@ -78,25 +86,25 @@ function FormFP() {
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>*Email Address</Form.Label>
-          <Form.Control type="email" maxLength="256" placeholder="you@website.com" id="Email" required onChange={storeValue} />
+          <Form.Control className="px-4 py-3" type="email" maxLength="256" placeholder="you@website.com" id="Email" required onChange={storeValue} />
           <Form.Control.Feedback type="invalid">
             Please provide your e-mail address in correct format.
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>LinkedIn URL</Form.Label>
-          <Form.Control type="text" maxLength="256" id="Linkedin-url" onChange={storeValue} />
+          <Form.Control className="px-4 py-3" type="text" maxLength="256" id="Linkedin-url" onChange={storeValue} />
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>Why would you like to become part of the Femme Palette team?</Form.Label>
-          <Form.Control as="textarea" className="text-area" maxLength="5000" id="Motivation" onChange={storeValue} />
+          <Form.Control as="textarea" className="text-area px-4 py-3" maxLength="5000" id="Motivation" onChange={storeValue} />
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>Why are you the best candidate for this role?</Form.Label>
-          <Form.Control as="textarea" className="text-area" maxLength="5000" id="Self-Evaluation" onChange={storeValue} />
+          <Form.Control as="textarea" className="text-area px-4 py-3" maxLength="5000" id="Self-Evaluation" onChange={storeValue} />
         </Form.Group>
         <Row className="mt-5 mx-0">
-          <Button variant="secondary" type="submit">Submit Application</Button>
+          <Button variant='submit' type="submit">Submit Application</Button>
         </Row>
       </Form>
       <SuccessModal show={show} handleClose={handleClose} submittedValues={submittedValues} />

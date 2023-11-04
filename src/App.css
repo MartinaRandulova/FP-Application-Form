@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+body {
+  font-family: DM Sans, sans-serif !important;
+}
+
+label {
+  font-weight: 500;
+}
+
+h3 {
+  font-family: 'Libre Caslon Text', serif;
+}
+
+.card {
+  border: 0px #ecebea !important;
+}
+
 .text-area {
   height: 156px;
 }
+

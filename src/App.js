@@ -7,20 +7,20 @@ import Form from './Components/Form/Form';
 
 function App() {
   return (
-    <Container>
-      <div className="d-flex justify-content-center align-items-center p-2">
-        <Container fluid>
-          <Row className="text-center mb-4 mt-5">
-            <h3 className="mb-0">Apply for this position</h3>
-          </Row>
-          <Card className="shadow">
-            <Card.Body className="p-5 pt-4">
-              <Form />
-            </Card.Body>
-          </Card>
-        </Container>
-      </div>
-    </Container>
+
+    <div className="d-flex p-2">
+      <Container>
+        <Row className="text-center mb-4 mt-5">
+          <h3 className="">Apply for this position</h3>
+        </Row>
+        <Card className="shadow">
+          <Card.Body className="p-5 pt-4">
+            <Form />
+          </Card.Body>
+        </Card>
+      </Container>
+    </div>
+
   );
 }
 
