@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/FP-Application-Form/static/css/main.339169d0.css",
-    "main.js": "/FP-Application-Form/static/js/main.96366f38.js",
+    "main.js": "/FP-Application-Form/static/js/main.95ebc2de.js",
     "static/js/787.44416715.chunk.js": "/FP-Application-Form/static/js/787.44416715.chunk.js",
     "index.html": "/FP-Application-Form/index.html",
     "main.339169d0.css.map": "/FP-Application-Form/static/css/main.339169d0.css.map",
-    "main.96366f38.js.map": "/FP-Application-Form/static/js/main.96366f38.js.map",
+    "main.95ebc2de.js.map": "/FP-Application-Form/static/js/main.95ebc2de.js.map",
     "787.44416715.chunk.js.map": "/FP-Application-Form/static/js/787.44416715.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.339169d0.css",
-    "static/js/main.96366f38.js"
+    "static/js/main.95ebc2de.js"
   ]
 }
